@@ -1,2 +1,16 @@
 # Data-Science-Project-1
 Prediction of survivers on titanic cruise in titanic dataset using XG_Boost algorithm.
+# Introduction
+The Titanic Dataset consists of eight hundred ninty one samples.Each samples has twelve features; PassengerId, Survived, Pclass, Name, Sex,Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked.
+# Problem Domain
+We have Csv file of Titanic dataset and we see There are 12  features in dataset which is in numerical form and 4 label which is in categorical (string) form. There are Some Null_values in there.so we use Supervised machine learning for better prediction our model.our model doesn't take string format so we convert string format to numerical format.
+# Solution Domain
+XGBoost is an optimized distributed gradient boosting library designed for efficient and scalable training of machine learning models.
+It is an ensemble learning method that combines the predictions of multiple weak models to produce a stronger prediction.XGBoost stands for “Extreme Gradient Boosting” and it has become one of the most popular and widely used machine learning algorithms due to its ability to handle large datasets and its ability to achieve state-of-the-art performance in many machine learning tasks such as classification and regression.
+One of the key features of XGBoost is its efficient handling of missing values,which allows it to handle real-world data with missing values without requiring significant pre-processing. Additionally, XGBoost has built-in support for parallel processing, making it possible to train models on large datasets in a reasonable amount of time. XGBoost is an implementation of Gradient Boosted decision trees.In this algorithm, decision trees are created in sequential form. Weights(data) play an important role in XGBoost. Weights(data) are assigned to all the independent variables which are then fed into the decision tree which predicts results.The weight of variables predicted wrong by the tree is increased and these variables are then fed to the second decision tree. These individual classifiers/predictors then ensemble to give a strong and more precise model. It can work on regression, classification, ranking, and user-defined prediction problems.
+# Technology Used
+We used Jupyter Notebook for Iris dataset algorithm and also used diffent types of library from python such as numpy, pandas ,matplotlib, seaborn, Scikit-Learn and XGBoost.
+# Conclusion
+Performance: XGBoost has a strong track record of producing high-quality results in various machine learning tasks,especially in Kaggle competitions, where it has been a popular choice for winning solutions.
+Scalability: XGBoost is designed for efficient and scalable training of machine learning models, making it suitable for large datasets,like the titanic dataset used in this surviver prediction.
+Customizability: XGBoost has a wide range of hyperparameters that can be adjusted to optimize performance,making it highly customizable. Handling of Missing Values: XGBoost has built-in support for handling missing values, making it easy to work with real-world data that often has missing values.Interpretability: Unlike some machine learning algorithms that can be difficult to interpret, XGBoost provides feature importances, allowing for a better understanding  of which variables are most important in making predictions.
