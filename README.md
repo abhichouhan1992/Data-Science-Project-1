@@ -1,4 +1,4 @@
-# Data-Science-Project-1
+# Titanic Project
 Prediction of survivors on titanic cruise in titanic dataset using XG_Boost algorithm.
 # Introduction
 The Titanic Dataset consists of eight hundred ninty one samples.Each samples has twelve features; PassengerId, Survived, Pclass, Name, Sex,Age, SibSp, Parch, Ticket, Fare, Cabin, Embarked.
